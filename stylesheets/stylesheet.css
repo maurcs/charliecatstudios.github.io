@@ -1,0 +1,100 @@
+body{
+	background: #dfdccd;
+	padding: 0;
+	margin: 0;
+	font-family:Raleway, san-serif;
+	color: #EEEEEE;
+}
+
+#site-main{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+#content-main{
+	width:1080px;
+	height:1080px;
+	background: url(/images/charlie-cat.jpg) center center no-repeat;
+	background-size: cover;
+	margin:25px auto;
+	margin-bottom:0px;
+	padding:25px;
+}
+
+#home-title{
+	text-align:center;
+	text-shadow: 2px 2px 5px #999;
+	margin:25px;
+}
+
+h1{
+	padding-bottom:0px;
+	margin-bottom:10px;
+}
+
+span{
+	margin:0;
+	padding:0;
+}
+
+a{
+	color:#FFF;
+}
+
+#contact{
+	margin:25px;
+}
+
+#site-footer{
+	padding:25px;
+	text-align:center;
+}
+
+/* min size style*/
+@media screen and (max-width:320px) {
+	#content-main{
+		width:300px;
+		height:300px;
+		margin:0px auto;
+		padding:25px 0;
+	}
+}
+
+/* middle size style */
+@media screen and (min-width:321px) {
+	#content-main{
+		width:550px;
+		height:550px;
+		margin:0px auto;
+		padding:25px 0;
+	}
+}
+
+/* large size style */
+@media screen and (min-width:800px) {
+
+	#content-main{
+		width:800px;
+		height:800px;
+		background: url(/images/charlie-cat.jpg) center center no-repeat;
+		background-size: cover;
+		margin:25px auto;
+		margin-bottom:0px;
+		padding:25px;
+	}
+}
+
+/* large size style */
+@media screen and (min-width:940px) {
+
+	#content-main{
+		width:1080px;
+		height:1080px;
+		background: url(/images/charlie-cat.jpg) center center no-repeat;
+		background-size: cover;
+		margin:25px auto;
+		margin-bottom:0px;
+		padding:25px;
+	}
+}
