@@ -3,7 +3,7 @@ body{
 	padding: 0;
 	margin: 0;
 	font-family:Raleway, san-serif;
-	color: #EEEEEE;
+	color: #eee;
 }
 
 #site-main{
@@ -17,14 +17,13 @@ body{
 	height:1080px;
 	background: url(/images/charlie-cat.jpg) center center no-repeat;
 	background-size: cover;
-	margin:25px auto;
+	margin:0;
 	margin-bottom:0px;
-	padding:25px;
+	padding:0;
 }
 
 #home-title{
 	text-align:center;
-	text-shadow: 2px 2px 5px #999;
 	margin:25px;
 }
 
